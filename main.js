@@ -17,11 +17,11 @@ function calculateChange() {
     change = change % 5;
     let pennies = change;
     // Update the output
-    document.getElementById('dollar-output').textContent = dollars;
-    document.getElementById('quarter-output').textContent = quarters;
-    document.getElementById('dime-output').textContent = dimes;
-    document.getElementById('nickel-output').textContent = nickels;
-    document.getElementById('penny-output').textContent = pennies;
+    document.getElementById('dollars-output').textContent = dollars;
+    document.getElementById('quarters-output').textContent = quarters;
+    document.getElementById('dimes-output').textContent = dimes;
+    document.getElementById('nickels-output').textContent = nickels;
+    document.getElementById('pennies-output').textContent = pennies;
 
 
     }
